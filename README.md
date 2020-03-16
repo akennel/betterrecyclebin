@@ -1,4 +1,4 @@
-## better-recycle-bin
+## SharePoint Better Recycle Bin
 
 A SharePoint Online WebPart that displays the Second-Stage (Site Collection) Recycle Bin in a sortable and filterable table.
 

@@ -1,6 +1,13 @@
 ## better-recycle-bin
 
-This is where you include your WebPart documentation.
+A SharePoint Online WebPart that displays the Second-Stage (Site Collection) Recycle Bin in a sortable and filterable table.
+
+The default Recycle Bin does not make it easy to find deleted files. This web part allows your search for files by name, path, deleted date, deleted by, or a combination of all of the above.
+
+Tested on a production system, but use at your own risk.
+Uses PNPJS and the SharePoint REST API.
+
+You can download a packaged version [here](https://github.com/akennel/betterrecyclebin/blob/master/better-recycle-bin.sppkg?raw=true)
 
 ### Building the code
 
@@ -11,16 +18,4 @@ npm i -g gulp
 gulp
 ```
 
-This package produces the following:
 
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO

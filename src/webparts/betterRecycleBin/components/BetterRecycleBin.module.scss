@@ -1,0 +1,71 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+:global #workbenchPageContent {
+  // max-width: 1316px;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+
+  &>div {
+      &>div {
+          overflow: visible;
+
+          &>div {
+              overflow: visible;
+              padding: 0;
+
+              .CanvasComponent {
+
+                  .CanvasZone {
+                      margin: auto;
+                      padding-left: 24px;
+                      max-width: 100%;
+                  }
+
+                  .CanvasZone--noMargin {
+                      margin: auto;
+                  }
+
+              }
+          }
+      }
+  }
+
+}
+
+.betterRecycleBin {
+  .description {
+    margin: 10px;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .recycleBin {
+    font-size: medium;
+  }
+
+  .table {
+    font-size: medium;
+    margin: 10px;
+  }
+
+  .buttons {
+    font-size: medium;
+    margin: 10px;
+  }
+
+  .button {
+    margin-right: 20px;
+  }
+
+  .log {
+    font-size: medium;
+    margin: 10px;
+  }
+  
+  
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "better-recycle-bin-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/betterRecycleBin/BetterRecycleBinWebPart.js",
+          "manifest": "./src/webparts/betterRecycleBin/BetterRecycleBinWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BetterRecycleBinWebPartStrings": "lib/webparts/betterRecycleBin/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

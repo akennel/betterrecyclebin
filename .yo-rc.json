@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "whichFolder": "subdir",
+    "version": "1.10.0",
+    "libraryName": "better-recycle-bin",
+    "libraryId": "e5cf2bcc-4ed9-456a-b9b2-c3ae26a89a10",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

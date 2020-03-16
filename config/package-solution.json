@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "better-recycle-bin-client-side-solution",
+    "id": "e5cf2bcc-4ed9-456a-b9b2-c3ae26a89a10",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/better-recycle-bin.sppkg"
+  }
+}
